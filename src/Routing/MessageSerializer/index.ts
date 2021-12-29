@@ -1,4 +1,4 @@
-import * as Messages from "../../../lib/Messages"
+import * as Messages from "../../Messages"
 
 export default class MessageSerializer {
     public static serialize(data : object) : Messages.Message {

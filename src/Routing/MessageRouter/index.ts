@@ -1,4 +1,4 @@
-import * as Messages from "../../../lib/Messages"
+import * as Messages from "../../Messages"
 
 export default class MessageRouter {
     constructor() {
