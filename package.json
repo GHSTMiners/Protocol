@@ -7,7 +7,7 @@
     "test": "jest --config jestconfig.json",
     "build": "npm run protobuf && npm run compile",
     "compile": "tsc",
-    "protobuf": "mkdirp lib\\Messages && pbjs --target static-module --wrap commonjs --out lib\\Messages\\index.js src\\Messages\\**\\*.proto && pbts -o .\\lib\\Messages\\index.d.ts .\\lib\\Messages\\index.js"
+    "protobuf": "mkdirp lib\\Messages && pbjs --target static-module --wrap commonjs --out lib\\Messages\\index.js src\\Messages\\**\\*.proto && pbts -o lib\\Messages\\index.d.ts lib\\Messages\\index.js"
   },
   "repository": {
     "type": "git",
