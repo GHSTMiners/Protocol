@@ -1,6 +1,6 @@
 import * as Messages from '../../../lib/Messages';
 
-export default class MessageRouter {
+export class MessageRouter {
   constructor() {
     this.routes = new Map<string, Array<(message: any) => void>>();
   }
