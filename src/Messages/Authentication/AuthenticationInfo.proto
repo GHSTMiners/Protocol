@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AuthenticationInfo {
+    string wallet_address = 1;
+    string authentication_token = 2;
+    int32 gotchi_id = 3;
+}

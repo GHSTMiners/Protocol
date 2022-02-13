@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message NotifyPlayerMinedCrypto {
+    uint32 crypto_id = 1;
+}
