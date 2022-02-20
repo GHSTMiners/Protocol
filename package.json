@@ -1,6 +1,6 @@
 {
   "name": "gotchiminer-multiplayer-protocol",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Defines the protocol between the [client](https://github.com/GHSTMiners/Client) and the [server](https://github.com/GHSTMiners/ServerV2) using [protobuf](https://developers.google.com/protocol-buffers).",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "compile": "tsc",
-    "protobuf": "mkdirp lib\\Messages && pbjs --target static-module --wrap commonjs --out lib\\Messages\\index.js src\\Messages\\**\\*.proto && pbts -o lib\\Messages\\index.d.ts lib\\Messages\\index.js"
+    "protobuf": "mkdirp lib/Messages && pbjs --target static-module --wrap commonjs --out lib/Messages/index.js src/Messages/**/*.proto && pbts -o lib/Messages/index.d.ts lib/Messages/index.js"
   },
   "repository": {
     "type": "git",
