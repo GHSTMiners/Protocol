@@ -1,5 +1,5 @@
 syntax = "proto3";
 
-message ChatMessage {
+message MessageToServer {
     string msg = 1;
 }

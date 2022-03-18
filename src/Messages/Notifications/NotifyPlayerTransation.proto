@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message NotifyPlayerTransation {
+    uint32 crypto_id = 1;
+    uint32 amount = 2;
+    bool accepted = 3;
+}
