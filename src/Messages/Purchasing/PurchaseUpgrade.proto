@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message PurchaseUpgrade {
+    int32 id = 1;
+    enum Tier {
+        Uncommon = 1;
+        Rare = 2;
+        Legendary = 3;
+        Mythical = 4;
+        Godlike = 5;
+      }
+    Tier tier = 2;
+}
