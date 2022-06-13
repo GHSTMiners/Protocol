@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ChangePlayerReady {
+    bool ready = 1;
+}
