@@ -5,4 +5,5 @@ message AuthenticationInfo {
     string wallet_address = 2;
     string authentication_token = 3;
     int32 gotchi_id = 4;
+    string password = 5;
 }

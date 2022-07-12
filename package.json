@@ -1,6 +1,6 @@
 {
   "name": "gotchiminer-multiplayer-protocol",
-  "version": "1.10.0",
+  "version": "1.12.0",
   "description": "Defines the protocol between the [client](https://github.com/GHSTMiners/Client) and the [server](https://github.com/GHSTMiners/ServerV2) using [protobuf](https://developers.google.com/protocol-buffers).",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
