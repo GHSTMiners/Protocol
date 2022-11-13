@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message NotifyPlayerExchangedCrypto {
+    uint32 gotchi_id = 1;  
+    uint32 source_crypto_id = 2;
+    uint32 target_crypto_id = 3;
+    uint32 amount = 4;
+    bool accepted = 5;
+}

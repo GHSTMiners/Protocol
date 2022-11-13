@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-message NotifyPlayerTransaction {
-    uint32 crypto_id = 1;
-    uint32 amount = 2;
-    bool accepted = 3;
-}
