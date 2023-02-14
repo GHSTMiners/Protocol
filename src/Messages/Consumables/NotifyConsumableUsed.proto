@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message NotifyConsumableUsed {
+    uint32 gotchi_id = 1;  
+    uint32 consumable_id = 2;
+}
