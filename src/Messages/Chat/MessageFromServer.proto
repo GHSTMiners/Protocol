@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MessageFromServer {
+    string msg = 1;
+    bool system_message = 2;
+    int32 gotchi_id = 3;
+}

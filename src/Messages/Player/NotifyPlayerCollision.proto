@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message NotifyPlayerCollision {
+    uint32 gotchi_id = 1;  
+}

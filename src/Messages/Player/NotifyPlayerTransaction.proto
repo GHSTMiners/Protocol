@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message NotifyPlayerTransaction {
+    uint32 gotchi_id = 1;  
+    uint32 crypto_id = 2;
+    uint32 amount = 3;
+    bool accepted = 4;
+}

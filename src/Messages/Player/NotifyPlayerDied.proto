@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+enum DeathReason {
+    OutOfFuel = 0;
+    Collision = 1;
+    Exploded = 2;
+  }
+
+message NotifyPlayerDied {
+    uint32 gotchi_id = 1;  
+    bool lost_cargo = 2;
+    DeathReason reason = 3;
+    uint32 perpetrator_gotchi_id = 4;  
+}

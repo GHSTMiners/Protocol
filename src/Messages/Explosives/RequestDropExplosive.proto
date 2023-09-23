@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message RequestDropExplosive {
+    uint32 explosiveID = 0;
+}
